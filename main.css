@@ -1,0 +1,135 @@
+:root{
+    --asosiy-lighmode-rangi:rgb(196, 181, 165);
+    --asosiy-lighmode-text-rangi:rgb(0, 0, 0);
+    --asosiy-button-rangi:rgb(251, 152, 47);
+    --asosiy-darkmode-button-rangi:rgb(196, 181, 165);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--asosiy-lighmode-rangi);
+}
+header{
+    padding-top: 50px;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.header__item{
+    display: flex;
+   gap: 90px;
+   list-style: none;
+}
+.header__link1{
+    text-decoration: none;
+    color: var(--asosiy-lighmode-text-rangi);
+    /* Base */
+color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+transition: 0.5s ease-in-out;
+}
+.header__link{
+    text-decoration: none;
+    color: var(--asosiy-lighmode-text-rangi);
+    /* Base */
+color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+transition: 0.5s ease-in-out;
+}
+.header__link2{
+    text-decoration: none;
+    color: var(--asosiy-lighmode-text-rangi);
+    /* Base */
+color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+transition: 0.5s ease-in-out;
+}
+.header__btn{
+    background-color: var(--asosiy-button-rangi);
+    border-radius: 6px;
+    width: 131px;
+    height: 41px;
+    border: none;
+}
+.header__btn1{
+    background-color: var(--asosiy-lighmode-text-rangi);
+    border-radius: 6px;
+    width: 131px;
+    height: 41px;
+    color: var(--asosiy-lighmode-rangi);
+    border: none;
+}
+section{
+    padding-top: 70px;
+}
+.section__title{
+    color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 155.2%;
+width: 420px;
+}
+.section__text{
+    color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 200%;
+width: 426px;
+margin-top: 50px;
+margin-right: 150px;
+}
+.section__btn{
+    background-color: var(--asosiy-button-rangi);
+    width: 195px;
+    height: 53px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 80px;
+}
+.section__item{
+    display: flex;
+}
+.header__link1:hover{
+    color: orange;
+}
+.header__link:hover{
+    color: orange;
+}
+.header__link:active{
+    color: white;
+}
+.header__btn:hover{
+    background-color: gray;
+
+}
+.header__btn:active{
+    background-color: aqua;
+}
+.header__btn1:hover{
+    background-color: orange;
+
+}
+.header__btn1:active{
+    background-color:green;
+}
